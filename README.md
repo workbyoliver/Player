@@ -27,12 +27,27 @@ Player puts the current song and artist in your menu bar, next to a tiny equaliz
   | Space (panel open) | Play or pause |
   | Esc | Close the panel |
 
-## Requirements
+## Download
+
+Get **Player.zip** from the [latest release](https://github.com/workbyoliver/Player/releases/latest). It needs macOS 26 Tahoe or later and a Mac with Apple silicon.
+
+1. Unzip it, move **Player.app** to your Applications folder and open it.
+2. The build isn't notarised, so macOS blocks the first launch. Go to System Settings › Privacy & Security, scroll down and click **Open Anyway**. Or run:
+
+   ```bash
+   xattr -dr com.apple.quarantine /Applications/Player.app
+   ```
+
+Player appears in the menu bar, not the Dock. Right-click it for Launch at Login and Quit.
+
+## Build from source
+
+You'll need:
 
 - macOS 26 Tahoe or later
-- Xcode 26 or later to build (Swift 6.2 and `actool`, which compiles the icon)
+- Xcode 26 or later (Swift 6.2 and `actool`, which compiles the icon)
 
-## Build and install
+Then:
 
 ```bash
 git clone https://github.com/workbyoliver/Player.git
@@ -68,11 +83,7 @@ Player asks for these only when you first use the feature that needs them:
 ## Caveats
 
 - Player relies on a private macOS framework, so a macOS update could break it.
-- Builds aren't notarised. If you send someone a build, they need to allow it on first launch in System Settings › Privacy & Security › Open Anyway, or run:
-
-  ```bash
-  xattr -dr com.apple.quarantine /Applications/Player.app
-  ```
+- Builds aren't notarised, so the first launch needs Open Anyway (see [Download](#download)).
 
 ## Project layout
 
