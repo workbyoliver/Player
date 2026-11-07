@@ -1,0 +1,72 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.65000,0.86000,0.49000,1.00000",
+      "srgb:0.06000,0.35000,0.33000,1.00000"
+    ],
+    "orientation" : {
+      "start" : {
+        "x" : 0.14999999999999999,
+        "y" : 0
+      },
+      "stop" : {
+        "x" : 0.84999999999999998,
+        "y" : 1
+      }
+    }
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "glass" : true,
+          "image-name" : "play.svg",
+          "name" : "Play"
+        }
+      ],
+      "name" : "Play",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.34999999999999998
+      }
+    },
+    {
+      "layers" : [
+        {
+          "glass" : false,
+          "image-name" : "contours.png",
+          "name" : "Contours",
+          "opacity" : 0.22
+        },
+        {
+          "glass" : false,
+          "image-name" : "glow.png",
+          "name" : "Glow"
+        },
+        {
+          "glass" : false,
+          "image-name" : "shade.png",
+          "name" : "Shade"
+        }
+      ],
+      "name" : "Field",
+      "shadow" : {
+        "kind" : "none",
+        "opacity" : 0
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : "shared"
+  }
+}

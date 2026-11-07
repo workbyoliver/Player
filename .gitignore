@@ -1,0 +1,11 @@
+# Build output
+.build/
+build/
+dist/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Working notes
+tasks/

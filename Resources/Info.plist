@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.workbyoliver.Player</string>
+	<key>CFBundleName</key>
+	<string>Player</string>
+	<key>CFBundleDisplayName</key>
+	<string>Player</string>
+	<key>CFBundleExecutable</key>
+	<string>Player</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Player sets an app's own volume by re-playing its audio at the level you choose. Nothing is recorded or saved.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Player controls Music and Spotify when you select them while another app is the active player.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
